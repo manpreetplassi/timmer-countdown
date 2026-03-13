@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For smooth, premium animations on timer digits and mode transitions"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For resolving Tailwind class conflicts"
+  "lucide-react": "For crisp, modern icons"
+
+images: []
+
+notes:
+  - This is a purely frontend, embeddable widget.
+  - No backend connections or APIs are used.
+  - State is managed locally.
+  - Designed specifically for iframe embedding (e.g., Notion) with responsive, contained layout.

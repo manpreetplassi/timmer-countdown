@@ -1,0 +1,79 @@
+Create a small single-page web application that works as a **Stopwatch and Countdown Timer widget** which can be embedded inside a Notion page.
+
+**Goal**
+
+Build a clean, minimal web app using **HTML, CSS, and vanilla JavaScript (no frameworks)**. The app should run entirely in the browser as a single static page so it can be hosted easily and embedded in Notion using an iframe or embed link.
+
+**Functional Requirements**
+
+1. **Stopwatch**
+
+   * Display time in `HH:MM:SS`.
+   * Buttons:
+
+     * Start
+     * Pause
+     * Reset
+     * Lap
+   * The timer should increment every second.
+   * When "Lap" is pressed, record the current time and show it in a list below the timer.
+   * The newest lap should appear at the top.
+
+2. **Countdown Timer**
+
+   * Input fields for hours, minutes, and seconds.
+   * Button: “Start Countdown”.
+   * Countdown decreases every second.
+   * When it reaches zero, show a visual notification such as:
+
+     * text message
+     * color change
+     * optional browser alert.
+
+3. **User Interface**
+
+   * Clean minimal UI suitable for embedding.
+   * Responsive layout.
+   * Centered timer display.
+   * Buttons with clear labels.
+   * Scrollable lap list if many laps are added.
+   * Dark modern styling.
+
+4. **Technical Constraints**
+
+   * Entire app should be in a **single HTML file** containing:
+
+     * HTML structure
+     * CSS styles
+     * JavaScript logic.
+   * No external libraries required.
+   * Must work as a standalone static page.
+
+5. **Embedding Requirement**
+
+   * Ensure the page works correctly when embedded inside another site using an iframe (such as in Notion).
+   * Avoid popups that may be blocked by embedded contexts.
+
+6. **Code Quality**
+
+   * Use clear variable names.
+   * Organize code into functions:
+
+     * startStopwatch
+     * pauseStopwatch
+     * resetStopwatch
+     * addLap
+     * startCountdown
+     * formatTime
+   * Comment the important sections.
+
+7. **Output**
+
+   * Provide the complete **single HTML file** ready to host.
+   * The result should be usable by uploading the file to hosting (GitHub Pages, Netlify, etc.) and embedding the link in Notion.
+
+Optional improvements:
+
+* subtle animation for timer changes
+* highlight newest lap
+* progress bar for countdown
