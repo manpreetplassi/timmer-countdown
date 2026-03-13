@@ -1,0 +1,7 @@
+[build]
+  command = "pnpm --filter @workspace/timer-widget build"
+  publish = "artifacts/timer-widget/dist"
+
+[build.environment]
+  PNPM_FLAGS = "--no-frozen-lockfile"
+  BASE_PATH = "/"
